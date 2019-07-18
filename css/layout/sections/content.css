@@ -1,0 +1,40 @@
+.sidebar,
+page__content {
+    float: left;
+}
+
+.sidebar {
+    width: 220px;
+}
+
+.page__content {
+    width: 720px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 35px;
+    color: #414141;
+    margin-bottom: 30px;
+}
+
+.download__link {
+    margin-bottom: 40px;
+    padding: 7px 13px;
+    border: 2px solid #e85f61;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e85f61;
+    text-decoration: none;
+}
+
+.download__link:hover {
+    color: #fff;
+    background: #e85f61;
+    transition: .5s;
+}
+
+.download__title {
+    margin-left: 8px;
+}

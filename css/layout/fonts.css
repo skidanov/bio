@@ -1,0 +1,41 @@
+
+
+@font-face {
+    font-family: 'fira';
+    src: url('../../fonts/firasans-light-webfont.woff') format('woff'),
+         url('../../fonts/firasans-light-webfont.svg#fira_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira';
+    src: url('../../fonts/firasans-regular-webfont.woff') format('woff'),
+         url('../../fonts/firasans-regular-webfont.svg#fira_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira';
+    src: url('../../fonts/firasans-medium-webfont.woff') format('woff'),
+         url('../../fonts/firasans-medium-webfont.svg#fira_sansmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira';
+    src: url('../../fonts/firasans-bold-webfont.woff') format('woff'),
+         url('../../fonts/firasans-bold-webfont.svg#fira_sansbold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+    url('../../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }

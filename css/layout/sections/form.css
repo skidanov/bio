@@ -1,0 +1,144 @@
+body{
+    background: #272727;
+    font-size: 14px;
+    line-height: 1.42;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #424448;
+}
+.form{
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 560px;
+    padding: 30px 40px 20px;
+    box-sizing: border-box;
+    margin: 100px auto 0;
+}
+
+.form__title{
+    font-size: 26px;
+    padding-bottom: 11px;
+    text-align: center;
+    border-bottom: 4px solid #b7bbe6;
+    margin-bottom: 40px;
+}
+
+.form__content{
+    margin-bottom: 9px;    
+}
+
+.form__content_top{
+    margin-bottom: 27px;
+}
+
+.form__content_left{
+    width: 130px;
+    float: left;
+
+}
+
+.form__content_right{
+    width: 320px;
+    float: left;
+    margin-left: 30px;
+}
+
+.form__photo_elem{
+    border: 1px solid rgb(235, 236, 237);
+    border-radius: 4px;
+    background-color: rgb(252, 252, 252);
+    height: 126px;
+    margin-bottom: 12px;
+}
+
+.form__photo_desc{
+    text-align: center;
+    font-size: 15px;
+}
+
+.form__elem{
+    display: block;
+    margin-bottom: 16px;
+}
+
+.form__elem_title{
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.form__elem_input{
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    background-color: #fcfcfc;
+    width: 100%;
+    padding: 18px 20px;
+    box-sizing: border-box;
+    transition: all .5s;
+    outline: none;
+}
+
+.form__elem_input:focus{
+    color: #777;
+    border: 2px solid #acaaaa;
+}
+
+.form__content_botton .form__elem_title{
+    text-align: center;
+}
+
+.form__content_botton .form__elem{
+    margin-bottom: 0;
+}
+
+.form__elem_textarea{
+    height: 190px;
+    resize: none;
+}
+
+.form__footer_left, form__footer_right{
+    float: left;
+    width: 50%;
+}
+
+.subscride__title{
+    color: #777c80;
+    margin-bottom: 5px;
+}
+
+.subscride__control{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+.subscride__control_check{
+    display: inline-block;
+}
+
+.subscride__control_title{
+    color: #777c80;
+    margin-left: 8px;
+}
+
+.form__footer_right{
+    text-align: right;
+    padding-top: 5px;
+}
+
+.form__footer_submit{
+    width: 160px;
+    height: 50px;
+    background: #424242;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}
+
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
